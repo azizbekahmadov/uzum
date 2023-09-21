@@ -1,0 +1,480 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.kontainer {
+  width: 100%;
+  max-width: 2000px;
+  margin: auto;
+}
+.kontainer .boshqism {
+  width: 100%;
+  margin: 0px auto;
+  background-color: #F4F5F5;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.kontainer .boshqism .quti1 {
+  margin: 0px auto;
+  display: flex;
+}
+.kontainer .boshqism .quti1 .boshqism-btn {
+  background: transparent;
+  border: none;
+}
+.kontainer .boshqism .quti1 .boshqism-btn a {
+  text-decoration: underline;
+  color: black;
+  font-weight: 500;
+}
+.kontainer .boshqism .quti1 .son1 {
+  margin-left: 12px;
+  font-weight: 400;
+  margin-top: 3px;
+}
+.kontainer .boshqism .quti2 {
+  display: flex;
+  margin: 0px auto;
+}
+.kontainer .boshqism .quti3 {
+  display: flex;
+  margin: 0px auto;
+}
+.kontainer .boshqism .quti3 .son4 {
+  margin-left: 20px;
+}
+.kontainer .boshqism .quti3 .son5 {
+  margin-left: 20px;
+  background: transparent;
+  border: none;
+}
+.kontainer .boshqism .quti3 .son5 .fa-globe {
+  color: blue;
+}
+.kontainer .urtaqism {
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  margin-top: -20px;
+}
+.kontainer .urtaqism .rasm-quti {
+  margin-top: -50px;
+  margin-left: 120px;
+}
+.kontainer .urtaqism .box2 {
+  margin-top: 50px;
+  display: flex;
+  height: 50px;
+  margin-left: 260px;
+}
+.kontainer .urtaqism .box2 .box2-btn {
+  width: 160px;
+  height: 40px;
+  border: none;
+  background-color: #EAEAF9;
+  color: #5E72D7;
+  border-radius: 5px;
+}
+.kontainer .urtaqism .box2 .input-group {
+  margin-left: 50px;
+  width: 500px;
+  height: 40px;
+}
+.kontainer .urtaqism .box3 {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.kontainer .urtaqism .box3 .aziz1 {
+  padding: 12px 14px;
+  background: transparent;
+  border: none;
+}
+.kontainer .urtaqism .box3 .aziz2 {
+  padding: 12px 14px;
+  background: transparent;
+  border: none;
+}
+.kontainer .urtaqism .box3 .aziz3 {
+  padding: 12px 14px;
+  background: transparent;
+  border: none;
+}
+.kontainer .keyingi-qism {
+  width: 100%;
+  display: flex;
+  font-size: 13px;
+  margin-top: -50px;
+}
+.kontainer .keyingi-qism .rasmcha {
+  width: 40px;
+}
+.kontainer .keyingi-qism .nest ul {
+  display: flex;
+  list-style: none;
+  margin-left: 100px;
+}
+.kontainer .keyingi-qism .nest li:not(:last-child) {
+  margin-right: 59px;
+}
+.kontainer .keyingi-qism .nest ul li:nth-child(1) {
+  margin-top: -10px;
+}
+.kontainer .keyingi-qism .nest li:hover {
+  transition: all 0.5s ease;
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+.kontainer .carousel-inner {
+  margin-left: 120px;
+}
+
+.sindi {
+  text-align: left;
+  margin-top: 60px;
+}
+.sindi .kontainer-h2 {
+  margin-left: 120px;
+}
+
+.items {
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  margin-top: 50px;
+}
+.items .item1 {
+  width: 300px;
+  height: 540px;
+  margin-left: 120px;
+  border-radius: 5px;
+}
+.items .item1 .item1-img {
+  width: 100%;
+  height: 330px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.items .item1 .best {
+  width: 200px;
+}
+.items .item1 .best .btn-1 {
+  width: 160px;
+  font-size: 13px;
+  margin-top: -90px;
+  margin-left: -10px;
+  background: transparent;
+  border: none;
+}
+.items .item1 .best .btn-1 .fa-star {
+  color: #F7B64C;
+}
+.items .item1 .best .btn-2 {
+  width: 160px;
+  margin-top: 4px;
+  margin-left: 5px;
+  border: none;
+  background-color: rgb(255, 255, 0);
+  border-radius: 6px;
+}
+.items .item1 .para-1 {
+  margin-top: 7px;
+  margin-left: 7px;
+}
+.items .item1 .para-2 {
+  margin-left: 9px;
+  margin-top: 10px;
+  text-decoration: line-through;
+}
+.items .item1 .para-3 {
+  font-size: 20px;
+  margin-top: -10px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.items .item1:hover {
+  transition: all 0.5s ease;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.items .item1 {
+  width: 300px;
+  height: 540px;
+  margin-left: 120px;
+  border-radius: 5px;
+}
+.items .item1 .item1-img {
+  width: 100%;
+  height: 330px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.items .item1 .best {
+  width: 200px;
+}
+.items .item1 .best .btn-1 {
+  width: 160px;
+  font-size: 13px;
+  margin-top: -90px;
+  margin-left: -10px;
+  background: transparent;
+  border: none;
+}
+.items .item1 .best .btn-1 .fa-star {
+  color: #F7B64C;
+}
+.items .item1 .best .btn-2 {
+  width: 160px;
+  margin-top: 4px;
+  margin-left: 5px;
+  border: none;
+  background-color: rgb(255, 255, 0);
+  border-radius: 6px;
+}
+.items .item1 .para-1 {
+  margin-top: 7px;
+  margin-left: 7px;
+}
+.items .item1 .para-2 {
+  margin-left: 9px;
+  margin-top: 10px;
+  text-decoration: line-through;
+}
+.items .item1 .para-3 {
+  font-size: 20px;
+  margin-top: -10px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.items .item1:hover {
+  transition: all 0.5s ease;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.items .item2 {
+  width: 300px;
+  height: 540px;
+  margin-left: 40px;
+  border-radius: 5px;
+}
+.items .item2 .item1-img {
+  width: 100%;
+  height: 330px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.items .item2 .best {
+  width: 200px;
+}
+.items .item2 .best .btn-1 {
+  width: 160px;
+  font-size: 13px;
+  margin-top: -90px;
+  margin-left: -10px;
+  background: transparent;
+  border: none;
+}
+.items .item2 .best .btn-1 .fa-star {
+  color: #F7B64C;
+}
+.items .item2 .best .btn-2 {
+  width: 160px;
+  margin-top: 4px;
+  margin-left: 5px;
+  border: none;
+  background-color: rgb(255, 255, 0);
+  border-radius: 6px;
+}
+.items .item2 .para-1 {
+  margin-top: 7px;
+  margin-left: 7px;
+}
+.items .item2 .para-2 {
+  margin-left: 9px;
+  margin-top: 10px;
+  text-decoration: line-through;
+}
+.items .item2 .para-3 {
+  font-size: 20px;
+  margin-top: -10px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.items .item2:hover {
+  transition: all 0.5s ease;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.items .item3 {
+  width: 300px;
+  height: 540px;
+  margin-left: 40px;
+  border-radius: 5px;
+}
+.items .item3 .item1-img {
+  width: 100%;
+  height: 330px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.items .item3 .best {
+  width: 200px;
+}
+.items .item3 .best .btn-1 {
+  width: 160px;
+  font-size: 13px;
+  margin-top: -90px;
+  margin-left: -10px;
+  background: transparent;
+  border: none;
+}
+.items .item3 .best .btn-1 .fa-star {
+  color: #F7B64C;
+}
+.items .item3 .best .btn-2 {
+  width: 160px;
+  margin-top: 4px;
+  margin-left: 5px;
+  border: none;
+  background-color: rgb(255, 255, 0);
+  border-radius: 6px;
+}
+.items .item3 .para-1 {
+  margin-top: 7px;
+  margin-left: 7px;
+}
+.items .item3 .para-2 {
+  margin-left: 9px;
+  margin-top: 10px;
+  text-decoration: line-through;
+}
+.items .item3 .para-3 {
+  font-size: 20px;
+  margin-top: -10px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.items .item3:hover {
+  transition: all 0.5s ease;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.items .item4 {
+  width: 300px;
+  height: 540px;
+  margin-left: 40px;
+  border-radius: 5px;
+}
+.items .item4 .item1-img {
+  width: 100%;
+  height: 330px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.items .item4 .best {
+  width: 200px;
+}
+.items .item4 .best .btn-1 {
+  width: 160px;
+  font-size: 13px;
+  margin-top: -90px;
+  margin-left: -10px;
+  background: transparent;
+  border: none;
+}
+.items .item4 .best .btn-1 .fa-star {
+  color: #F7B64C;
+}
+.items .item4 .best .btn-2 {
+  width: 160px;
+  margin-top: 4px;
+  margin-left: 5px;
+  border: none;
+  background-color: rgb(255, 255, 0);
+  border-radius: 6px;
+}
+.items .item4 .para-1 {
+  margin-top: 7px;
+  margin-left: 7px;
+}
+.items .item4 .para-2 {
+  margin-left: 9px;
+  margin-top: 10px;
+  text-decoration: line-through;
+}
+.items .item4 .para-3 {
+  font-size: 20px;
+  margin-top: -10px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.items .item4:hover {
+  transition: all 0.5s ease;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.items .item5 {
+  width: 300px;
+  height: 540px;
+  margin-left: 40px;
+  border-radius: 5px;
+}
+.items .item5 .item1-img {
+  width: 100%;
+  height: 330px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.items .item5 .best {
+  width: 200px;
+}
+.items .item5 .best .btn-1 {
+  width: 160px;
+  font-size: 13px;
+  margin-top: -90px;
+  margin-left: -10px;
+  background: transparent;
+  border: none;
+}
+.items .item5 .best .btn-1 .fa-star {
+  color: #F7B64C;
+}
+.items .item5 .best .btn-2 {
+  width: 160px;
+  margin-top: 4px;
+  margin-left: 5px;
+  border: none;
+  background-color: rgb(255, 255, 0);
+  border-radius: 6px;
+}
+.items .item5 .para-1 {
+  margin-top: 7px;
+  margin-left: 7px;
+}
+.items .item5 .para-2 {
+  margin-left: 9px;
+  margin-top: 10px;
+  text-decoration: line-through;
+}
+.items .item5 .para-3 {
+  font-size: 20px;
+  margin-top: -10px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.items .item5:hover {
+  transition: all 0.5s ease;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  cursor: pointer;
+  transform: scale(1.03);
+}/*# sourceMappingURL=style.css.map */
